@@ -12,6 +12,11 @@
   background-color: aqua;
 }
 
+.s-wrapper video{
+  position: fixed;
+  width: 100%;
+}
+
 .s-wrapper .s-left-column{
   width: 100px;
   height: 100%;
@@ -29,8 +34,8 @@
 .s-wrapper .s-main-content{
   height: 100%;
   width: 100%;
-  background-color: green;
   padding-left: 130px;
+  position: relative;
 }
 
 .s-wrapper .s-main-content__top{
@@ -87,7 +92,13 @@
   background-image: url('../images/spiderman-tobey/movie-02/background.png');
   background-size: cover; 
 }
-.spidermann-01-03{
-  background-image: url('../images/spiderman-tobey/movie-03/background.png');
+
+.spidermann-02-01{
+  background-image: url('../images/spiderman-andrew/movie-01/background.png');
+  background-size: cover; 
+}
+
+.spidermann-03-01{
+  background-image: url('../images/spiderman-tom/movie-01/background.png');
   background-size: cover; 
 }
